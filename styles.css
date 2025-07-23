@@ -1,0 +1,166 @@
+/* Genel Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+
+/* Header */
+header {
+  padding: 20px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header ul:last-of-type {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* HERO */
+section:first-of-type {
+  background-color: #2e2f42;
+  color: #ffffff;
+  text-align: center;
+  padding: 120px 0;
+}
+
+section:first-of-type h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+section:first-of-type button {
+  background-color: #4d5ae5;
+  color: white;
+  padding: 16px 32px;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Features Section */
+section:nth-of-type(2) {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 80px;
+  background-color: #fff;
+}
+
+section:nth-of-type(2) div {
+  max-width: 250px;
+}
+
+section:nth-of-type(2) h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Our Team */
+section:nth-of-type(3) {
+  background-color: #f4f4fd;
+  padding: 60px 0;
+  text-align: center;
+}
+
+section:nth-of-type(3) h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+section:nth-of-type(3) ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section:nth-of-type(3) li {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 4px;
+  width: 264px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+/* Our Portfolio */
+.portfolio-section {
+  padding: 60px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.portfolio-section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.portfolio-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  list-style: none;
+  padding: 0 80px;
+  margin: 0 auto;
+}
+
+.portfolio-list li {
+  background-color: #ffffff;
+  text-align: left;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.portfolio-list img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.portfolio-list h3 {
+  font-size: 20px;
+  margin: 16px;
+}
+
+.portfolio-list p {
+  font-size: 16px;
+  color: #434455;
+  margin: 0 16px 16px;
+}
+
+/* Footer */
+footer {
+  background-color: #2e2f42;
+  color: white;
+  padding: 40px 80px;
+}
+
+footer a {
+  color: #4d5ae5;
+  text-decoration: none;
+  font-weight: bold;
+}

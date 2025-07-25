@@ -1,0 +1,252 @@
+/* Genel Reset */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5; /* 24px / 16px = 1.5 */
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+
+
+/* Header */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+.logo-accent {
+  color: #4d5ae5; /* IRIS */
+}
+
+
+.nav-list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+}
+
+/* HERO */
+.hero {
+  background-color: #2e2f42;
+  color: #ffffff;
+  text-align: center;
+  padding: 120px 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  background-color: #4d5ae5;
+  color: white;
+  padding: 16px 32px;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* FEATURES */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 80px;
+  background-color: #fff;
+}
+
+.features div {
+  max-width: 250px;
+}
+
+.features h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* OUR TEAM */
+.our-team {
+  background-color: #f4f4fd; /* CLOUD */
+  padding: 120px 0;
+  text-align: center;
+}
+
+.our-team h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  margin-bottom: 72px;
+  color: #2e2f42;
+  font-weight: 700;
+}
+
+.team-list {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.team-card {
+  background-color: #ffffff;
+  width: 264px;
+  height: 380px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding-bottom: 32px;
+  box-shadow:
+    0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.team-card h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #2e2f42;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.team-card p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+  margin: 0;
+}
+
+
+.our-team ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  list-style
+}
+footer {
+  background-color: #2e2f42; /* NAVY BLUE */
+  color: #ffffff;            /* Beyaz metin */
+  padding: 60px 80px;
+}
+
+footer .logo {
+  color: #ffffff;
+}
+
+footer .logo-accent {
+  color: #4d5ae5; /* IRIS rengi vurgulu */
+}
+
+footer p {
+  max-width: 264px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #ffffff;
+}
+.portfolio-section {
+  padding: 120px 0;
+  background-color: #ffffff;
+  text-align: center;
+  border-top: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.portfolio-section h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  margin-bottom: 72px;
+  font-weight: 700;
+  color: #2e2f42;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 48px 24px;
+  padding: 0;
+  margin: 0 auto;
+  width: 1128px;
+  list-style: none;
+}
+
+.portfolio-card {
+  width: 360px;
+  height: 420px;
+  background-color: #ffffff;
+  border: 1px solid #e7e9fc;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.portfolio-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 32px 16px;
+  text-align: left;
+}
+
+.card-content h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  color: #2e2f42;
+}
+
+.card-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  color: #434455;
+}
+
+/* Eğer ikinci kart 'pressed' durumundaysa (örneğin :hover efekti simülasyonu için) */
+.portfolio-card.pressed {
+  box-shadow:
+    0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
+}
